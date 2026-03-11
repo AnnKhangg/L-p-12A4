@@ -510,12 +510,14 @@ main {
   .intro-title {
     font-size: 2.2em;
   }
+  .popup {
+    display: flex;
 }
 
 
 /* --- Popup thông báo --- */
 .popup {
-  display: flex; 
+  display: none; 
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
